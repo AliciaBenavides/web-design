@@ -1,1 +1,14 @@
 @import "./vendor/normalize.scss";
+@import "./partials/colors";
+@import "./partials/typography";
+
+@mixin heading() {
+    color: #DB8D33;
+    font-size: 48px;
+    font-family: 'Marck Script';
+    font-style: cursive;
+  }
+  aside { 
+    border: 1px solid orange;
+    @include border-radius(); 
+    }
