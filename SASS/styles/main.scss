@@ -1,7 +1,7 @@
-@import "./vendor/normalize.scss";
+@import "./vendor/normalize";
 @import "./partials/colors";
 @import "./partials/typography";
-@import "./patials/mixins";
+@import "./partials/mixins";
 
 @mixin heading() {
     color: #DB8D33;
